@@ -4,4 +4,4 @@
 
 This project is built with pure HTML and CSS and a bit of JavaScript for the hamburger menu and the FAQ accordion.
 
-You can see it in action at: [Link to Demo](https://your-company-landing-page-url.com)
+You can see it in action at: [https://astonishing-biscochitos-7d6ac5.netlify.app/](https://astonishing-biscochitos-7d6ac5.netlify.app/)
