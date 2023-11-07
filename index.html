@@ -46,6 +46,31 @@
             </li>
           </ul>
         </div>
+        <!-- HAMBURGER -->
+        <button class="hamburger-button">
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+          <div class="hamburger-line"></div>
+        </button>
+
+        <div class="mobile-menu">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a class="btn btn-block" href="#">
+                <i class="fas fa-user"></i> Log In
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -314,6 +339,7 @@
         </div>
       </div>
     </section>
+    <!-- FOOTER -->
     <footer class="bg-black">
       <div class="container">
         <a href="#">
@@ -324,16 +350,17 @@
             <h4 class="text-md">
               <strong>Subscribe to newsletter</strong>
             </h4>
-            <p>
+            <p class="text-sm">
               Subscribe now to receive tips on how to take your business to the
               next level.
             </p>
             <input
               type="email"
-              class="form-email"
+              id="email"
+              class="email"
               placeholder="Enter your email"
             />
-            <a href="#" class="btn btn-primary"> Subscribe </a>
+            <a href="#" class="btn btn-primary btn-block"> Subscribe </a>
           </div>
           <div class="footer-sub">
             <ul>
@@ -365,7 +392,6 @@
         <p class="copyright">© 2023 Growth. All rights reserved</p>
       </div>
     </footer>
-
     <script src="js/main.js"></script>
   </body>
 </html>
