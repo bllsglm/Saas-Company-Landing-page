@@ -132,6 +132,178 @@ img{
   font-weight: bold;
 }
 
+/* PRICING */
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  gap: 30px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.pricing .pricing-card-subheading {
+  margin-bottom: 30px ;
+}
+
+.pricing-card-price {
+margin-bottom: 30px;
+padding: 20px 0;
+border-bottom: 1px solid #ccc ;
+}
+
+.pricing ul {
+  margin: 30px 0;
+}
+
+.pricing ul li {
+  margin-bottom: 20px;
+}
+
+.pricing ul li i {
+  margin-right: 10px;
+}
+
+
+.pricing .pricing-footer {
+  margin: 30px 0;
+}
+
+
+/* FAQ */
+
+.faq { 
+  padding: 40px 0;
+}
+
+.faq-group{
+border-bottom:  1px solid #ccc;
+padding-bottom: 20px;
+}
+
+.faq .faq-group .faq-group-header {
+  padding: 20px 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+
+.faq .faq-group .faq-group-header h4 {
+  font-weight: 600;
+  width: 95%;
+} 
+
+
+.faq .faq-group .faq-group-header i {
+  position: absolute;
+  top : 35px;
+  right : 0;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
+.faq .faq-group .faq-group-body {
+  display: none;
+}
+
+.faq .faq-group .faq-group-body.open {
+  display: block;
+}
+
+.faq ul.faq-menu{
+   max-width: 400px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #ddd;
+   padding: 10px 20px;
+   border-radius: 10px;
+   font-weight: 600;
+   cursor: pointer;
+} 
+
+.faq ul.faq-menu li {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.faq ul.faq-menu li.active{
+  background: var(--primary-color);
+  color: #fff;
+}
+
+
+/* FOOTER */
+.footer {
+  margin: 40px 0 40px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr ;
+  gap:20px;
+}
+
+.subscribe {
+  margin-bottom: 40px;
+
+}
+
+.footer-sub {
+
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+.footer-grid li {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-top: 0 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+
+.footer-grid li a{
+  
+ color: #fff;
+}
+
+
+.footer-sub .form-email {
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+
+footer img{
+  margin-top: 60px;
+  padding: 40px 0 30px;
+}
+
+.footer-grid p {
+  margin-bottom: 10px;
+}
+
+
+footer a i {
+ margin-bottom: 40px;
+ font-size: 1.5rem; 
+ padding: 10px;
+ color: #fff;
+}
+
+p.copyright {
+  padding-bottom: 40px;
+}
+
+
 /* Utility Classes */
 
 .container {
@@ -147,6 +319,13 @@ img{
   padding: 0 15px;
 }
 
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 
 /* Button Classes */
 
@@ -160,6 +339,7 @@ img{
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  text-align: center;
   transition: 0.5s;
 }
 
@@ -249,10 +429,3 @@ img{
 
 /* Cards */
 
-.card {
-
-  background: #fff;
-  color: #000;
-  border-radius: 10px;
-  padding: 20px;
-}
